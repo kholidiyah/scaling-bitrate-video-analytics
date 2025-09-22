@@ -1,2 +1,23 @@
-# scaling-bitrate-video-analytics
-Scripts and demo videos for the paper "Scaling Bitrate in Video Compression Using Tuned Parameters for Efficient Video Analytics". Includes code, datasets, and experimental results.
+# Scaling Bitrate in Video Compression Using Tuned Parameters for Efficient Video Analytics
+
+This repository contains scripts, datasets (links), results, and demo videos accompanying the paper:
+
+**Scaling Bitrate in Video Compression Using Tuned Parameters for Efficient Video Analytics**  
+*Kholidiyah Masykuroh, Hendrawan, Eueung Mulyana*  
+
+---
+
+## 📖 Abstract
+Efficient video analytics is crucial for smart cities, traffic monitoring, and intelligent transportation systems.  
+This work introduces a **dynamic bitrate optimization framework** that fine-tunes video compression parameters —  
+Frame Rate (FPS), Resolution, Quantization Parameter (QP), Entropy Coding, Motion Estimation, and Macroblock Partitioning —  
+to balance **video quality, computational complexity, and bandwidth efficiency** in resource-constrained environments.
+
+---
+
+### Requirements
+- Python 3.7+
+- PyTorch 1.9.1
+- FFmpeg (2018+)
+- Ubuntu 22.04 (tested environment)
+- NVIDIA GPU with CUDA 11.1
