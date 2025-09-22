@@ -21,3 +21,8 @@ to balance **video quality, computational complexity, and bandwidth efficiency**
 - FFmpeg (2018+)
 - Ubuntu 22.04 (tested environment)
 - NVIDIA GPU with CUDA 11.1
+
+### Experimental Videos
+The following videos were used in computational complexity analysis:
+- `traffic72030.mp4` → Traffic dataset (720p, 30 FPS): https://youtu.be/JmJ6tsbEWmw
+- `pedestrian72030.mp4` → Pedestrian dataset (720p, 30 FPS): https://youtu.be/bdPKHyiKPV0
